@@ -76,8 +76,8 @@ function createMatchCard(match) {
 async function getMatches(leagueId) {
     try {
         // Obtener todos los partidos de la temporada actual y la anterior
-        const currentSeason = 2024;
-        const previousSeason = 2023;
+        const currentSeason = 2025;
+        const previousSeason = 2024;
         
         // Hacer dos llamadas a la API, una para cada temporada
         const [currentSeasonResponse, previousSeasonResponse] = await Promise.all([
