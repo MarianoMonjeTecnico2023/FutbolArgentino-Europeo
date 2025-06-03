@@ -11,7 +11,7 @@ const ARGENTINE_LEAGUES = {
 
 const EUROPEAN_LEAGUES = {
     'premier_league': { id: 39, name: 'Premier League' },
-    'laliga': { id: 141, name: 'La Liga' },
+    'laliga': { id: 140, name: 'La Liga' },
     'seriea': { id: 135, name: 'Serie A' },
     'bundesliga': { id: 78, name: 'Bundesliga' },
     'ligue1': { id: 61, name: 'Ligue 1' }
