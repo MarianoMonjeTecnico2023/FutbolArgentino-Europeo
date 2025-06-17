@@ -31,6 +31,10 @@ const SOUTH_AMERICAN_CUPS = {
     'copa_sudamericana': { id: 11, name: 'Copa Sudamericana' }
 };
 
+const WORLD_CUPS = {
+    'mundial_clubes': { id: 15, name: 'Mundial de Clubes FIFA' }
+};
+
 // Función para formatear la fecha
 function formatDate(dateString) {
     const options = { 
@@ -296,5 +300,10 @@ document.addEventListener('DOMContentLoaded', () => {
     } else if (currentPage.includes('copa_sudamericana.html')) {
         loadLeagueMatches('copa_sudamericana', SOUTH_AMERICAN_CUPS.copa_sudamericana);
         setInterval(() => loadLeagueMatches('copa_sudamericana', SOUTH_AMERICAN_CUPS.copa_sudamericana), 300000);
+    }
+    // Mundial de Clubes
+    else if (currentPage.includes('mundialclubes.html')) {
+        loadLeagueMatches('mundial_clubes', WORLD_CUPS.mundial_clubes);
+        setInterval(() => loadLeagueMatches('mundial_clubes', WORLD_CUPS.mundial_clubes), 300000);
     }
 }); 
